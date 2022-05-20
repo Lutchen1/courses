@@ -18,6 +18,7 @@ class NewCourseForm extends Component{
     }
 
     handleSubmit(event){
+        
         event.preventDefault();
         const newCourse = this.state;
 
